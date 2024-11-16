@@ -7,16 +7,16 @@ running = True
 
 pg.display.set_caption("Runner")
 clock = pg.time.Clock()
-sky = pg.image.load('assets/graphics/Sky.png')
-ground = pg.image.load('assets/graphics/ground.png')
-text = pg.font.Font('assets/font/Pixeltype.ttf', 50)
+sky = pg.image.load('runner/assets/graphics/Sky.png')
+ground = pg.image.load('runner/assets/graphics/ground.png')
+text = pg.font.Font('runner/assets/font/Pixeltype.ttf', 50)
 text_surf = text.render('Runner',False, 'Purple')
 
-snail = pg.image.load('assets/graphics/snail/snail1.png')
+snail = pg.image.load('runner/assets/graphics/snail/snail1.png')
 snail_x_pos = 730
 
 #player stand
-player = pg.image.load('assets/graphics/Player/player_stand.png')
+player = pg.image.load('runner/assets/graphics/Player/player_stand.png')
 player_rect = player.get_rect(midbottom = (80,200))
 
 screen = pg.display.set_mode((width, height))
